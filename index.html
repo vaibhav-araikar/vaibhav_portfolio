@@ -1,473 +1,646 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Sora:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
     <title>Vaibhav Araikar | Software Developer</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <div id="progress-bar"></div>
 
     <nav class="navbar" id="navbar">
-        <div class="nav-logo"><a href="#home">VA<span>.</span></a></div>
-        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
-            <span></span><span></span><span></span>
-        </button>
-        <div class="nav-links" id="navLinks">
-            <a href="#home" class="nav-link active">Home</a>
-            <a href="#about" class="nav-link">About</a>
-            <a href="#projects" class="nav-link">Projects</a>
-            <a href="#skills" class="nav-link">Skills</a>
-            <a href="#experience" class="nav-link">Experience</a>
-            <a href="#certifications" class="nav-link">Certs</a>
-            <a href="#contact" class="nav-link nav-cta">Contact</a>
-        </div>
+      <div class="nav-logo">
+        <a href="#home">VA<span>.</span></a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#certifications" class="nav-link">Certs</a>
+        <a href="#contact" class="nav-link nav-cta">Contact</a>
+      </div>
     </nav>
 
     <!-- main / hero section -->
     <div class="main_section" id="home">
-        <div class="hero-glow"></div>
-        <div class="profile_photo_wrap reveal" data-reveal="fade-right">
-            <div class="profile_photo" alt="profile photo"></div>
-            <div class="badge-float badge-1">💻 Full-Stack</div>
-            <div class="badge-float badge-2">🤖 AI / ML</div>
+      <div class="hero-glow"></div>
+      <div class="profile_photo_wrap reveal" data-reveal="fade-right">
+        <div class="profile_photo" alt="profile photo"></div>
+        <div class="badge-float badge-1">💻 Full-Stack</div>
+        <div class="badge-float badge-2">🤖 AI / ML</div>
+      </div>
+      <div class="description reveal" data-reveal="fade-left">
+        <p class="eyebrow">Hello, I'm</p>
+        <h1 class="typing">
+          <span class="text"></span>
+          <span class="cursor"></span>
+        </h1>
+        <h3>Software Developer &mdash; Full-Stack &amp; AI/ML</h3>
+        <p>
+          I build full-stack applications, REST APIs, authentication systems,
+          and AI-powered solutions using C++, JavaScript, Python, Node.js,
+          Express.js, React.js, and MongoDB. Experienced in MERN development,
+          backend architecture, machine learning, and cloud platforms, with a
+          strong foundation in Data Structures and Algorithms &mdash; 100+
+          LeetCode problems solved.
+        </p>
+        <div class="hero-actions">
+          <a href="Vaibhav_Araikar_Resume.pdf" download class="btn btn-primary">
+            <span>Download Resume</span>
+          </a>
+          <a href="#projects" class="btn btn-outline">
+            <span>View Projects</span>
+          </a>
         </div>
-        <div class="description reveal" data-reveal="fade-left">
-            <p class="eyebrow">Hello, I'm</p>
-            <h1 class="typing">
-                <span class="text"></span>
-                <span class="cursor"></span>
-            </h1>
-            <h3>Software Developer &mdash; Full-Stack &amp; AI/ML</h3>
-            <p>
-                I build full-stack applications, REST APIs, authentication systems, and
-                AI-powered solutions using C++, JavaScript, Python, Node.js, Express.js,
-                React.js, and MongoDB. Experienced in MERN development, backend
-                architecture, machine learning, and cloud platforms, with a strong
-                foundation in Data Structures and Algorithms &mdash; 100+ LeetCode problems solved.
-            </p>
-            <div class="hero-actions">
-                <a href="Vaibhav_Araikar_Resume.pdf" download class="btn btn-primary">
-                    <span>Download Resume</span>
-                </a>
-                <a href="#projects" class="btn btn-outline">
-                    <span>View Projects</span>
-                </a>
-            </div>
-            <div class="hero-socials">
-                <a href="https://www.linkedin.com/in/vaibhav-araikar-105825320/" target="_blank" rel="noopener" title="LinkedIn">in</a>
-                <a href="mailto:vaibhavaraikar070306@gmail.com" title="Email">@</a>
-                <a href="#" target="_blank" rel="noopener" title="GitHub — add your link">GH</a>
-            </div>
+        <div class="hero-socials">
+          <a
+            href="https://www.linkedin.com/in/vaibhav-araikar-105825320/"
+            target="_blank"
+            rel="noopener"
+            title="LinkedIn"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="mailto:vaibhavaraikar070306@gmail.com" title="Email"
+            ><i class="fa-regular fa-envelope"></i
+          ></a>
+          <a
+            href="https://github.com/vaibhav-araikar"
+            target="_blank"
+            rel="noopener"
+            title="GitHub — add your link"
+            ><i class="fa-brands fa-github"></i
+          ></a>
         </div>
+      </div>
     </div>
 
     <!-- education section -->
     <section class="education-section" id="about">
-        <p class="eyebrow center reveal">Background</p>
-        <h2 class="section-title reveal">Education</h2>
+      <p class="eyebrow center reveal">Background</p>
+      <h2 class="section-title reveal">Education</h2>
 
-        <div class="timeline">
-
-            <div class="timeline-item reveal" data-reveal="fade-up">
-                <span class="dot"></span>
-                <div class="line"></div>
-                <div class="content glass-card">
-                    <h3>B.Tech &mdash; Electrical Engineering</h3>
-                    <p>G. H. Raisoni College of Engineering, Nagpur</p>
-                    <p>CGPA: <b>8.03 / 10</b></p>
-                    <p class="year">2023 &ndash; 2027</p>
-                </div>
-            </div>
-
-            <div class="timeline-item reveal" data-reveal="fade-up">
-                <span class="dot"></span>
-                <div class="line"></div>
-                <div class="content glass-card">
-                    <h3>Higher Secondary</h3>
-                    <p>St. George Junior College, Nagpur</p>
-                    <p>Science (PCM) &mdash; <b>59.33%</b></p>
-                    <p class="year">2021 &ndash; 2023</p>
-                </div>
-            </div>
-
-            <div class="timeline-item reveal" data-reveal="fade-up">
-                <span class="dot"></span>
-                <div class="line"></div>
-                <div class="content glass-card">
-                    <h3>Secondary School</h3>
-                    <p>Saraswati Madhyamik Vidya Mandir, Nagpur</p>
-                    <p>SSC Board &mdash; <b>84.20%</b></p>
-                    <p class="year">2021</p>
-                </div>
-            </div>
-
+      <div class="timeline">
+        <div class="timeline-item reveal" data-reveal="fade-up">
+          <span class="dot"></span>
+          <div class="line"></div>
+          <div class="content glass-card">
+            <h3>B.Tech &mdash; Electrical Engineering</h3>
+            <p>G. H. Raisoni College of Engineering, Nagpur</p>
+            <p>CGPA: <b>8.03 / 10</b></p>
+            <p class="year">2023 &ndash; 2027</p>
+          </div>
         </div>
+
+        <div class="timeline-item reveal" data-reveal="fade-up">
+          <span class="dot"></span>
+          <div class="line"></div>
+          <div class="content glass-card">
+            <h3>Higher Secondary</h3>
+            <p>St. George Junior College, Nagpur</p>
+            <p>Science (PCM) &mdash; <b>59.33%</b></p>
+            <p class="year">2021 &ndash; 2023</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal" data-reveal="fade-up">
+          <span class="dot"></span>
+          <div class="line"></div>
+          <div class="content glass-card">
+            <h3>Secondary School</h3>
+            <p>Saraswati Madhyamik Vidya Mandir, Nagpur</p>
+            <p>SSC Board &mdash; <b>84.20%</b></p>
+            <p class="year">2021</p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- projects section -->
     <section class="project_section" id="projects">
-        <p class="eyebrow center reveal">Selected Work</p>
-        <h2 class="project-title reveal">Projects</h2>
+      <p class="eyebrow center reveal">Selected Work</p>
+      <h2 class="project-title reveal">Projects</h2>
 
-        <div class="project-grid">
-
-            <div class="project glass-card tilt-card reveal" data-reveal="fade-up" data-delay="0">
-                <div class="project-image has-photo" style="background-image:url('project1.jpg')"></div>
-                <div class="project-description">
-                    <span class="project-tag">MERN &bull; Python &bull; Mistral 7B</span>
-                    <h3>AI Disaster Assistant</h3>
-                    <p>
-                        AI-powered disaster-response assistant built on a locally hosted
-                        Mistral 7B model via LM Studio, integrated into a full-stack app
-                        through REST APIs to answer emergency queries in real time.
-                    </p>
-                </div>
-            </div>
-
-            <div class="project glass-card tilt-card reveal" data-reveal="fade-up" data-delay="100">
-                <div class="project-image placeholder-img proj-stay">
-                    <span>🏡</span>
-                </div>
-                <div class="project-description">
-                    <span class="project-tag">MongoDB &bull; Express &bull; React &bull; Node</span>
-                    <h3>StaySphere &mdash; Airbnb Clone</h3>
-                    <p>
-                        Full-stack accommodation platform with MVC architecture, JWT
-                        authentication, password recovery, Cloudinary uploads, listings,
-                        reviews, and 15+ REST APIs.
-                    </p>
-                </div>
-            </div>
-
-            <div class="project glass-card tilt-card reveal" data-reveal="fade-up" data-delay="200">
-                <div class="project-image placeholder-img proj-zerodha">
-                    <span>📈</span>
-                </div>
-                <div class="project-description">
-                    <span class="project-tag">React &bull; Node &bull; Express &bull; MongoDB</span>
-                    <h3>Zerodha Clone</h3>
-                    <p>
-                        Responsive stock-trading platform with reusable components,
-                        authentication, portfolio management, trading workflows, and
-                        full REST API integration.
-                    </p>
-                </div>
-            </div>
-
-            <div class="project glass-card tilt-card reveal" data-reveal="fade-up" data-delay="300">
-                <div class="project-image placeholder-img proj-parking">
-                    <span>🅿️</span>
-                </div>
-                <div class="project-description">
-                    <span class="project-tag">Python &bull; Pandas &bull; NumPy</span>
-                    <h3>Dynamic Pricing for Urban Parking Lots</h3>
-                    <p>
-                        Data-driven pricing engine for 14 urban parking lots, using
-                        historical occupancy and demand parameters to adjust prices
-                        dynamically.
-                    </p>
-                </div>
-            </div>
-
+      <div class="project-grid">
+        <div
+          class="project glass-card tilt-card reveal"
+          data-reveal="fade-up"
+          data-delay="0"
+        >
+          <div
+            class="project-image has-photo"
+            style="background-image: url(&quot;project1.jpg&quot;)"
+          ></div>
+          <div class="project-description">
+            <span class="project-tag"
+              >MERN &bull; Python &bull; Mistral 7B</span
+            >
+            <h3>AI Disaster Assistant</h3>
+            <p>
+              AI-powered disaster-response assistant built on a locally hosted
+              Mistral 7B model via LM Studio, integrated into a full-stack app
+              through REST APIs to answer emergency queries in real time.
+            </p>
+          </div>
         </div>
+
+        <div
+          class="project glass-card tilt-card reveal"
+          data-reveal="fade-up"
+          data-delay="100"
+        >
+          <div class="project-image placeholder-img proj-stay">
+            <span>🏡</span>
+          </div>
+          <div class="project-description">
+            <span class="project-tag"
+              >MongoDB &bull; Express &bull; React &bull; Node</span
+            >
+            <h3>StaySphere &mdash; Airbnb Clone</h3>
+            <p>
+              Full-stack accommodation platform with MVC architecture, JWT
+              authentication, password recovery, Cloudinary uploads, listings,
+              reviews, and 15+ REST APIs.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="project glass-card tilt-card reveal"
+          data-reveal="fade-up"
+          data-delay="200"
+        >
+          <div class="project-image placeholder-img proj-zerodha">
+            <span>📈</span>
+          </div>
+          <div class="project-description">
+            <span class="project-tag"
+              >React &bull; Node &bull; Express &bull; MongoDB</span
+            >
+            <h3>Zerodha Clone</h3>
+            <p>
+              Responsive stock-trading platform with reusable components,
+              authentication, portfolio management, trading workflows, and full
+              REST API integration.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="project glass-card tilt-card reveal"
+          data-reveal="fade-up"
+          data-delay="300"
+        >
+          <div class="project-image placeholder-img proj-parking">
+            <span>🅿️</span>
+          </div>
+          <div class="project-description">
+            <span class="project-tag">Python &bull; Pandas &bull; NumPy</span>
+            <h3>Dynamic Pricing for Urban Parking Lots</h3>
+            <p>
+              Data-driven pricing engine for 14 urban parking lots, using
+              historical occupancy and demand parameters to adjust prices
+              dynamically.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- skills section -->
     <section class="skills_section" id="skills">
-        <p class="eyebrow center reveal">Toolbox</p>
-        <h2 class="skills-title reveal">Skills</h2>
-        <div class="skills-grid">
-
-            <div class="frontend_skills glass-card reveal" data-reveal="fade-up" data-delay="0">
-                <h3><span class="skill-icon">{ }</span>Languages</h3>
-                <ul>
-                    <li>C++</li>
-                    <li>JavaScript</li>
-                    <li>Python</li>
-                    <li>SQL</li>
-                </ul>
-            </div>
-
-            <div class="frontend_skills glass-card reveal" data-reveal="fade-up" data-delay="60">
-                <h3><span class="skill-icon">🎨</span>Frontend</h3>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>Bootstrap</li>
-                    <li>React.js</li>
-                </ul>
-            </div>
-
-            <div class="frontend_skills glass-card reveal" data-reveal="fade-up" data-delay="120">
-                <h3><span class="skill-icon">⚙️</span>Backend</h3>
-                <ul>
-                    <li>Node.js</li>
-                    <li>Express.js</li>
-                    <li>REST APIs</li>
-                    <li>JWT &amp; MVC</li>
-                </ul>
-            </div>
-
-            <div class="frontend_skills glass-card reveal" data-reveal="fade-up" data-delay="180">
-                <h3><span class="skill-icon">🗄️</span>Databases</h3>
-                <ul>
-                    <li>MongoDB</li>
-                    <li>SQL</li>
-                </ul>
-            </div>
-
-            <div class="frontend_skills glass-card reveal" data-reveal="fade-up" data-delay="240">
-                <h3><span class="skill-icon">🤖</span>AI / ML</h3>
-                <ul>
-                    <li>Machine Learning</li>
-                    <li>Gemini API</li>
-                    <li>Vertex AI</li>
-                    <li>IBM Watsonx</li>
-                </ul>
-            </div>
-
-            <div class="frontend_skills glass-card reveal" data-reveal="fade-up" data-delay="300">
-                <h3><span class="skill-icon">☁️</span>Cloud</h3>
-                <ul>
-                    <li>Google Cloud</li>
-                    <li>AWS</li>
-                    <li>Microsoft Azure</li>
-                    <li>IBM Cloud</li>
-                </ul>
-            </div>
-
-            <div class="frontend_skills glass-card reveal" data-reveal="fade-up" data-delay="360">
-                <h3><span class="skill-icon">📚</span>Core CS</h3>
-                <ul>
-                    <li>DSA &amp; OOP</li>
-                    <li>DBMS &amp; OS</li>
-                    <li>Computer Networks</li>
-                    <li>Software Engineering</li>
-                </ul>
-            </div>
-
-            <div class="frontend_skills glass-card reveal" data-reveal="fade-up" data-delay="420">
-                <h3><span class="skill-icon">🛠️</span>Tools</h3>
-                <ul>
-                    <li>Git &amp; GitHub</li>
-                    <li>Linux &amp; VS Code</li>
-                    <li>LM Studio</li>
-                    <li>Cloudinary</li>
-                </ul>
-            </div>
-
+      <p class="eyebrow center reveal">Toolbox</p>
+      <h2 class="skills-title reveal">Skills</h2>
+      <div class="skills-grid">
+        <div
+          class="frontend_skills glass-card reveal"
+          data-reveal="fade-up"
+          data-delay="0"
+        >
+          <h3><span class="skill-icon">{ }</span>Languages</h3>
+          <ul>
+            <li>C++</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>SQL</li>
+          </ul>
         </div>
+
+        <div
+          class="frontend_skills glass-card reveal"
+          data-reveal="fade-up"
+          data-delay="60"
+        >
+          <h3><span class="skill-icon">🎨</span>Frontend</h3>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Bootstrap</li>
+            <li>React.js</li>
+          </ul>
+        </div>
+
+        <div
+          class="frontend_skills glass-card reveal"
+          data-reveal="fade-up"
+          data-delay="120"
+        >
+          <h3><span class="skill-icon">⚙️</span>Backend</h3>
+          <ul>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>REST APIs</li>
+            <li>JWT &amp; MVC</li>
+          </ul>
+        </div>
+
+        <div
+          class="frontend_skills glass-card reveal"
+          data-reveal="fade-up"
+          data-delay="180"
+        >
+          <h3><span class="skill-icon">🗄️</span>Databases</h3>
+          <ul>
+            <li>MongoDB</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+
+        <div
+          class="frontend_skills glass-card reveal"
+          data-reveal="fade-up"
+          data-delay="240"
+        >
+          <h3><span class="skill-icon">🤖</span>AI / ML</h3>
+          <ul>
+            <li>Machine Learning</li>
+            <li>Gemini API</li>
+            <li>Vertex AI</li>
+            <li>IBM Watsonx</li>
+          </ul>
+        </div>
+
+        <div
+          class="frontend_skills glass-card reveal"
+          data-reveal="fade-up"
+          data-delay="300"
+        >
+          <h3><span class="skill-icon">☁️</span>Cloud</h3>
+          <ul>
+            <li>Google Cloud</li>
+            <li>AWS</li>
+            <li>Microsoft Azure</li>
+            <li>IBM Cloud</li>
+          </ul>
+        </div>
+
+        <div
+          class="frontend_skills glass-card reveal"
+          data-reveal="fade-up"
+          data-delay="360"
+        >
+          <h3><span class="skill-icon">📚</span>Core CS</h3>
+          <ul>
+            <li>DSA &amp; OOP</li>
+            <li>DBMS &amp; OS</li>
+            <li>Computer Networks</li>
+            <li>Software Engineering</li>
+          </ul>
+        </div>
+
+        <div
+          class="frontend_skills glass-card reveal"
+          data-reveal="fade-up"
+          data-delay="420"
+        >
+          <h3><span class="skill-icon">🛠️</span>Tools</h3>
+          <ul>
+            <li>Git &amp; GitHub</li>
+            <li>Linux &amp; VS Code</li>
+            <li>LM Studio</li>
+            <li>Cloudinary</li>
+          </ul>
+        </div>
+      </div>
     </section>
 
     <!-- Experience section -->
     <section class="education-section" id="experience">
-        <p class="eyebrow center reveal">Career So Far</p>
-        <h2 class="section-title reveal">Experience</h2>
+      <p class="eyebrow center reveal">Career So Far</p>
+      <h2 class="section-title reveal">Experience</h2>
 
-        <div class="timeline">
-
-            <div class="timeline-item reveal" data-reveal="fade-up">
-                <span class="dot"></span>
-                <div class="line"></div>
-                <div class="content glass-card">
-                    <h3>AI &amp; Machine Learning Intern</h3>
-                    <p><b>Pluto Academy</b></p>
-                    <ul>
-                        <li>Developed 2 AI/ML applications using Python covering data preprocessing, model development, evaluation, and application integration.</li>
-                        <li>Applied machine learning workflows to solve practical real-world problems.</li>
-                    </ul>
-                    <p class="year">June 2026 &ndash; July 2026</p>
-                </div>
-            </div>
-
-            <div class="timeline-item reveal" data-reveal="fade-up">
-                <span class="dot"></span>
-                <div class="line"></div>
-                <div class="content glass-card">
-                    <h3>AI &amp; Cloud Intern</h3>
-                    <p><b>IBM SkillsBuild &times; Edunet Foundation</b></p>
-                    <ul>
-                        <li>Developed an AI-powered course recommendation system using IBM Cloud, Watsonx.ai, and IBM Granite foundation models.</li>
-                        <li>Integrated AI services and recommendation logic for personalized learning pathways.</li>
-                    </ul>
-                    <p class="year">July 2025 &ndash; August 2025</p>
-                </div>
-            </div>
-
-            <div class="timeline-item reveal" data-reveal="fade-up">
-                <span class="dot"></span>
-                <div class="line"></div>
-                <div class="content glass-card">
-                    <h3>AI &amp; Data Analytics Intern</h3>
-                    <p><b>AICTE &times; Shell India &times; Edunet Foundation</b></p>
-                    <ul>
-                        <li>Developed a data-driven system to predict future EV manufacturing trends using historical data and analytical techniques.</li>
-                        <li>Performed data processing, analysis, documentation, and workflow optimization.</li>
-                    </ul>
-                    <p class="year">July 2025 &ndash; August 2025</p>
-                </div>
-            </div>
-
-            <div class="timeline-item reveal" data-reveal="fade-up">
-                <span class="dot"></span>
-                <div class="line"></div>
-                <div class="content glass-card">
-                    <h3>AI / ML Intern</h3>
-                    <p><b>InternPro</b></p>
-                    <ul>
-                        <li>Developed frontend components for an AI Interview Bot and integrated workflows using Python, REST APIs, and LLM-based functionality.</li>
-                    </ul>
-                    <p class="year">June 2025 &ndash; July 2025</p>
-                </div>
-            </div>
-
+      <div class="timeline">
+        <div class="timeline-item reveal" data-reveal="fade-up">
+          <span class="dot"></span>
+          <div class="line"></div>
+          <div class="content glass-card">
+            <h3>AI &amp; Machine Learning Intern</h3>
+            <p><b>Pluto Academy</b></p>
+            <ul>
+              <li>
+                Developed 2 AI/ML applications using Python covering data
+                preprocessing, model development, evaluation, and application
+                integration.
+              </li>
+              <li>
+                Applied machine learning workflows to solve practical real-world
+                problems.
+              </li>
+            </ul>
+            <p class="year">June 2026 &ndash; July 2026</p>
+          </div>
         </div>
+
+        <div class="timeline-item reveal" data-reveal="fade-up">
+          <span class="dot"></span>
+          <div class="line"></div>
+          <div class="content glass-card">
+            <h3>AI &amp; Cloud Intern</h3>
+            <p><b>IBM SkillsBuild &times; Edunet Foundation</b></p>
+            <ul>
+              <li>
+                Developed an AI-powered course recommendation system using IBM
+                Cloud, Watsonx.ai, and IBM Granite foundation models.
+              </li>
+              <li>
+                Integrated AI services and recommendation logic for personalized
+                learning pathways.
+              </li>
+            </ul>
+            <p class="year">July 2025 &ndash; August 2025</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal" data-reveal="fade-up">
+          <span class="dot"></span>
+          <div class="line"></div>
+          <div class="content glass-card">
+            <h3>AI &amp; Data Analytics Intern</h3>
+            <p><b>AICTE &times; Shell India &times; Edunet Foundation</b></p>
+            <ul>
+              <li>
+                Developed a data-driven system to predict future EV
+                manufacturing trends using historical data and analytical
+                techniques.
+              </li>
+              <li>
+                Performed data processing, analysis, documentation, and workflow
+                optimization.
+              </li>
+            </ul>
+            <p class="year">July 2025 &ndash; August 2025</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal" data-reveal="fade-up">
+          <span class="dot"></span>
+          <div class="line"></div>
+          <div class="content glass-card">
+            <h3>AI / ML Intern</h3>
+            <p><b>InternPro</b></p>
+            <ul>
+              <li>
+                Developed frontend components for an AI Interview Bot and
+                integrated workflows using Python, REST APIs, and LLM-based
+                functionality.
+              </li>
+            </ul>
+            <p class="year">June 2025 &ndash; July 2025</p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- certifications -->
     <section class="certification_section" id="certifications">
-        <p class="eyebrow center reveal">Proof of Work</p>
-        <h2 class="section-title reveal">Certifications</h2>
+      <p class="eyebrow center reveal">Proof of Work</p>
+      <h2 class="section-title reveal">Certifications</h2>
 
-        <div class="project-grid cert-grid">
-
-            <div class="project glass-card tilt-card reveal" data-reveal="fade-up" data-delay="0">
-                <div class="project-image cert-image" style="background-image:url('meta.png')"></div>
-                <div class="project-description">
-                    <h3>Meta Full Stack Developer</h3>
-                    <p>Professional Certificate &bull; Meta</p>
-                </div>
-            </div>
-
-            <div class="project glass-card tilt-card reveal" data-reveal="fade-up" data-delay="80">
-                <div class="project-image cert-image" style="background-image:url('aws.png')"></div>
-                <div class="project-description">
-                    <h3>AWS Cloud Technical Essentials</h3>
-                    <p>Amazon Web Services</p>
-                </div>
-            </div>
-
-            <div class="project glass-card tilt-card reveal" data-reveal="fade-up" data-delay="160">
-                <div class="project-image cert-image" style="background-image:url('google_cloud.png')"></div>
-                <div class="project-description">
-                    <h3>Google AI Professional Certificate</h3>
-                    <p>Google</p>
-                </div>
-            </div>
-
-            <div class="project glass-card tilt-card reveal" data-reveal="fade-up" data-delay="240">
-                <div class="project-image cert-image" style="background-image:url('microsoft.png')"></div>
-                <div class="project-description">
-                    <h3>Azure for AI &amp; Machine Learning</h3>
-                    <p>Microsoft</p>
-                </div>
-            </div>
-
+      <div class="project-grid cert-grid">
+        <div
+          class="project glass-card tilt-card reveal"
+          data-reveal="fade-up"
+          data-delay="0"
+        >
+          <div
+            class="project-image cert-image"
+            style="background-image: url(&quot;meta.png&quot;)"
+          ></div>
+          <div class="project-description">
+            <h3>Meta Full Stack Developer</h3>
+            <p>Professional Certificate &bull; Meta</p>
+          </div>
         </div>
 
-        <div class="cert-chip-row reveal">
-            <span class="cert-chip">IBM Generative AI Engineering</span>
-            <span class="cert-chip">Oracle Cloud Infrastructure &mdash; Generative AI</span>
-            <span class="cert-chip">Advanced AI &amp; ML Techniques &amp; Capstone</span>
-            <span class="cert-chip">Supervised ML: Regression &amp; Classification</span>
-            <span class="cert-chip">Advanced Learning Algorithms</span>
+        <div
+          class="project glass-card tilt-card reveal"
+          data-reveal="fade-up"
+          data-delay="80"
+        >
+          <div
+            class="project-image cert-image"
+            style="background-image: url(&quot;aws.png&quot;)"
+          ></div>
+          <div class="project-description">
+            <h3>AWS Cloud Technical Essentials</h3>
+            <p>Amazon Web Services</p>
+          </div>
         </div>
+
+        <div
+          class="project glass-card tilt-card reveal"
+          data-reveal="fade-up"
+          data-delay="160"
+        >
+          <div
+            class="project-image cert-image"
+            style="background-image: url(&quot;google_cloud.png&quot;)"
+          ></div>
+          <div class="project-description">
+            <h3>Google AI Professional Certificate</h3>
+            <p>Google</p>
+          </div>
+        </div>
+
+        <div
+          class="project glass-card tilt-card reveal"
+          data-reveal="fade-up"
+          data-delay="240"
+        >
+          <div
+            class="project-image cert-image"
+            style="background-image: url(&quot;microsoft.png&quot;)"
+          ></div>
+          <div class="project-description">
+            <h3>Azure for AI &amp; Machine Learning</h3>
+            <p>Microsoft</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="cert-chip-row reveal">
+        <span class="cert-chip">IBM Generative AI Engineering</span>
+        <span class="cert-chip"
+          >Oracle Cloud Infrastructure &mdash; Generative AI</span
+        >
+        <span class="cert-chip"
+          >Advanced AI &amp; ML Techniques &amp; Capstone</span
+        >
+        <span class="cert-chip"
+          >Supervised ML: Regression &amp; Classification</span
+        >
+        <span class="cert-chip">Advanced Learning Algorithms</span>
+      </div>
     </section>
 
     <!-- Achievements -->
     <section class="achievements_section">
-        <p class="eyebrow center reveal">Highlights</p>
-        <h2 class="section-title reveal center">Achievements</h2>
+      <p class="eyebrow center reveal">Highlights</p>
+      <h2 class="section-title reveal center">Achievements</h2>
 
-        <div class="achievements-grid">
-            <div class="achievement-card glass-card reveal" data-reveal="zoom" data-delay="0">
-                <span class="achievement-num" data-count="100">0</span><span class="achievement-plus">+</span>
-                <p>LeetCode Problems Solved</p>
-            </div>
-            <div class="achievement-card glass-card reveal" data-reveal="zoom" data-delay="100">
-                <span class="achievement-num" data-count="8">0</span><span class="achievement-plus">+</span>
-                <p>Full-Stack &amp; AI/ML Apps Built</p>
-            </div>
-            <div class="achievement-card glass-card reveal" data-reveal="zoom" data-delay="200">
-                <span class="achievement-num">SIH</span>
-                <p>Smart India Hackathon Participant</p>
-            </div>
-            <div class="achievement-card glass-card reveal" data-reveal="zoom" data-delay="300">
-                <span class="achievement-num">4</span>
-                <p>Google Cloud / Vertex AI Skill Badges</p>
-            </div>
+      <div class="achievements-grid">
+        <div
+          class="achievement-card glass-card reveal"
+          data-reveal="zoom"
+          data-delay="0"
+        >
+          <span class="achievement-num" data-count="175">0</span
+          ><span class="achievement-plus">+</span>
+          <p>LeetCode Problems Solved</p>
         </div>
+        <div
+          class="achievement-card glass-card reveal"
+          data-reveal="zoom"
+          data-delay="100"
+        >
+          <span class="achievement-num" data-count="8">0</span
+          ><span class="achievement-plus">+</span>
+          <p>Full-Stack &amp; AI/ML Apps Built</p>
+        </div>
+        <div
+          class="achievement-card glass-card reveal"
+          data-reveal="zoom"
+          data-delay="200"
+        >
+          <span class="achievement-num">SIH</span>
+          <p>Smart India Hackathon Participant</p>
+        </div>
+        <div
+          class="achievement-card glass-card reveal"
+          data-reveal="zoom"
+          data-delay="300"
+        >
+          <span class="achievement-num">4</span>
+          <p>Google Cloud / Vertex AI Skill Badges</p>
+        </div>
+      </div>
     </section>
 
     <!-- Tech stack -->
     <section class="tech_stack_section">
-        <p class="eyebrow center reveal">Playground</p>
-        <h2 class="section-title reveal center">Tech Stack I Work With</h2>
-        <p class="tech-hint reveal center">Drag the chips around ✨</p>
+      <p class="eyebrow center reveal">Playground</p>
+      <h2 class="section-title reveal center">Tech Stack I Work With</h2>
+      <p class="tech-hint reveal center">Drag the chips around ✨</p>
 
-        <div class="tech-container" id="techContainer">
-            <div class="tech" data-label="C++">C++</div>
-            <div class="tech" data-label="JavaScript">JS</div>
-            <div class="tech" data-label="Python">Py</div>
-            <div class="tech" data-label="React.js">React</div>
-            <div class="tech" data-label="Node.js">Node</div>
-            <div class="tech" data-label="Express.js">Express</div>
-            <div class="tech" data-label="MongoDB">Mongo</div>
-            <div class="tech" data-label="AWS">AWS</div>
-            <div class="tech" data-label="Google Cloud">GCP</div>
-            <div class="tech" data-label="Azure">Azure</div>
-            <div class="tech" data-label="Git">Git</div>
-            <div class="tech" data-label="Linux">Linux</div>
-        </div>
+      <div class="tech-container" id="techContainer">
+        <div class="tech" data-label="C++">C++</div>
+        <div class="tech" data-label="JavaScript">JS</div>
+        <div class="tech" data-label="Python">Py</div>
+        <div class="tech" data-label="React.js">React</div>
+        <div class="tech" data-label="Node.js">Node</div>
+        <div class="tech" data-label="Express.js">Express</div>
+        <div class="tech" data-label="MongoDB">Mongo</div>
+        <div class="tech" data-label="AWS">AWS</div>
+        <div class="tech" data-label="Google Cloud">GCP</div>
+        <div class="tech" data-label="Azure">Azure</div>
+        <div class="tech" data-label="Git">Git</div>
+        <div class="tech" data-label="Linux">Linux</div>
+      </div>
     </section>
     <script src="tech.js"></script>
 
     <!-- contact -->
     <section class="contact_section" id="contact">
-        <p class="eyebrow center reveal">Let's Connect</p>
-        <h2 class="section-title reveal center">Get In Touch</h2>
-        <p class="contact-sub reveal center">
-            Open to Software Developer, Full-Stack, and AI/ML roles &mdash; feel free to reach out.
-        </p>
+      <p class="eyebrow center reveal">Let's Connect</p>
+      <h2 class="section-title reveal center">Get In Touch</h2>
+      <p class="contact-sub reveal center">
+        Open to Software Developer, Full-Stack, and AI/ML roles &mdash; feel
+        free to reach out.
+      </p>
 
-        <div class="contact-grid">
-            <a class="contact-card glass-card reveal" data-reveal="fade-up" href="mailto:vaibhavaraikar070306@gmail.com">
-                <span class="contact-icon">✉️</span>
-                <h3>Email</h3>
-                <p>vaibhavaraikar070306@gmail.com</p>
-            </a>
-            <a class="contact-card glass-card reveal" data-reveal="fade-up" data-delay="100" href="tel:+919284963863">
-                <span class="contact-icon">📞</span>
-                <h3>Phone</h3>
-                <p>+91 92849 63863</p>
-            </a>
-            <a class="contact-card glass-card reveal" data-reveal="fade-up" data-delay="200" href="https://www.linkedin.com/in/vaibhav-araikar-105825320/" target="_blank" rel="noopener">
-                <span class="contact-icon">💼</span>
-                <h3>LinkedIn</h3>
-                <p>vaibhav-araikar</p>
-            </a>
-            <a class="contact-card glass-card reveal" data-reveal="fade-up" data-delay="300" href="#" target="_blank" rel="noopener">
-                <span class="contact-icon">🐙</span>
-                <h3>GitHub</h3>
-                <p>Add your GitHub link</p>
-            </a>
-        </div>
+      <div class="contact-grid">
+        <a
+          class="contact-card glass-card reveal"
+          data-reveal="fade-up"
+          href="mailto:vaibhavaraikar070306@gmail.com"
+        >
+          <span class="contact-icon">✉️</span>
+          <h3>Email</h3>
+          <p>vaibhavaraikar070306@gmail.com</p>
+        </a>
+        <a
+          class="contact-card glass-card reveal"
+          data-reveal="fade-up"
+          data-delay="100"
+          href="tel:+919284963863"
+        >
+          <span class="contact-icon">📞</span>
+          <h3>Phone</h3>
+          <p>+91 92849 63863</p>
+        </a>
+        <a
+          class="contact-card glass-card reveal"
+          data-reveal="fade-up"
+          data-delay="200"
+          href="https://www.linkedin.com/in/vaibhav-araikar-105825320/"
+          target="_blank"
+          rel="noopener"
+        >
+          <span class="contact-icon">💼</span>
+          <h3>LinkedIn</h3>
+          <p>vaibhav-araikar</p>
+        </a>
+        <a
+          class="contact-card glass-card reveal"
+          data-reveal="fade-up"
+          data-delay="300"
+          href="https://github.com/vaibhav-araikar"
+          target="_blank"
+          rel="noopener"
+        >
+          <span class="contact-icon">🐙</span>
+          <h3>GitHub</h3>
+          <p>vaibhav-araikar</p>
+        </a>
+      </div>
 
-        <p class="location reveal center">📍 Nagpur, Maharashtra, India</p>
+      <p class="location reveal center">📍 Nagpur, Maharashtra, India</p>
     </section>
 
     <footer class="footer">
-        <p>&copy; <span id="year"></span> Vaibhav Araikar. Built with curiosity &amp; caffeine.</p>
+      <p>
+        &copy; <span id="year"></span> Vaibhav Araikar. Built with curiosity
+        &amp; caffeine.
+      </p>
     </footer>
 
     <button id="backToTop" aria-label="Back to top">↑</button>
 
-<script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
